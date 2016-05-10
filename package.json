@@ -1,0 +1,23 @@
+{
+  "name": "get-permutations",
+  "author": "Jan Järfalk",
+  "version": "0.0.3",
+  "description": "Javascript object diff tool",
+  "main": "dist/getPermutations.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register  --inline-diffs",
+    "build": "babel --modules common src/getPermutations.js --out-file dist/getPermutations.js",
+    "build-watch": "babel --modules common --watch src/getPermutations.js --out-file dist/getPermutations.js"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janjarfalk/get-permutations.git"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "browserify": "^11.0.1",
+    "mocha": "^2.3.2",
+    "performance-now": "^0.2.0"
+  }
+}
