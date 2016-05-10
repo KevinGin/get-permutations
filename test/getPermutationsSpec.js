@@ -1,7 +1,6 @@
 /*global describe it*/
 import assert from 'assert';
 import getPermutations from '../src/getPermutations.js';
-import now from 'performance-now';
 
 describe('getPermutations() should...', function () {
     it(`find diff in shallow object`, function () {
