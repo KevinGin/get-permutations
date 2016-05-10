@@ -1,8 +1,8 @@
 {
   "name": "get-permutations",
   "author": "Jan Järfalk",
-  "version": "0.0.3",
-  "description": "Javascript object diff tool",
+  "version": "1.0.0",
+  "description": "Get permutations",
   "main": "dist/getPermutations.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register  --inline-diffs",
