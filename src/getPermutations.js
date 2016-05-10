@@ -10,7 +10,7 @@ const getPermutations = (arr) => {
             permutations.push(nextPermutation.slice());
         }
 
-        for (var i = 0; i < arr.length; i++) {
+        for (let i = 0; i < arr.length; i++) {
             arr.push(arr.shift());
             nextPermutation.push(arr[0]);
             permutate(arr.slice(1));
