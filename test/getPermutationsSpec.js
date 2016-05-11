@@ -22,7 +22,6 @@ describe('getPermutations() should...', function () {
         const start = now();
         getPermutations(large);
         const end = now();
-        console.log(end-start);
         assert.deepEqual(end-start < 1, true);
     });
 
